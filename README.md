@@ -1,4 +1,4 @@
-architecture diagram
+Architecture diagram
 ![image alt](https://github.com/teajo99/secure-vpc-hmrc-dvla-simulation/blob/c08f3907b1c14cc3605cc54bc416c458e3355438/diagram.jpg)
 
 # secure-vpc-hmrc-dvla-simulation
