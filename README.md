@@ -1,6 +1,8 @@
 Architecture diagram
 ![image alt](https://github.com/teajo99/secure-vpc-hmrc-dvla-simulation/blob/c08f3907b1c14cc3605cc54bc416c458e3355438/diagram.jpg)
 
+Secure AWS VPC architecture simulating isolated government systems (HMRC and DVLA) within a single Virtual Private Cloud. Each system runs on private EC2 instances within separate private subnets and cannot communicate with each other. Internet access is provided only through a NAT Gateway located in a public subnet, ensuring outbound-only connectivity. Route tables control traffic flow, while IAM roles securely manage access to AWS services such as S3. The architecture demonstrates network isolation, least-privilege access, and secure cloud design principles.
+
 # secure-vpc-hmrc-dvla-simulation
 Secure AWS VPC architecture simulating isolated government departments (HMRC &amp; DVLA) using private subnets, NAT Gateway, IAM roles, and security group isolation.
 
